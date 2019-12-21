@@ -1,0 +1,43 @@
+.kolom-3 {
+  width: 75%;
+  float: left;
+}
+
+.kolom-2 {
+  width: 50%;
+  float: left;
+}
+
+.kolom-1 {
+  width: 25%;
+  float: left;
+}
+
+button.tombol-kalkulator {
+  width: 100%;
+  height: 100px;
+  border: 2px solid #ddd;
+  background: #eee;
+  font-size: 32px;
+  color: #555;
+}
+
+input.hasil {
+  height: 100px;
+  width: auto;
+  border: none;
+  text-align: right;
+  font-size: 32px;
+  position: relative;
+  max-width: 100vw;
+  margin-right: 30px;
+  float: right;
+}
+
+.floaty-last {
+  position: absolute;
+  right: 50px;
+  z-index: 99;
+  top: 10px;
+  color: #aaa;
+}
